@@ -1,6 +1,40 @@
 # Changelog
 
-## Next
+## 2.15.1 - 2024 Nov 29
+- Remove leftover logging statements
+
+## 2.15.0 - 2024 Nov 27
+- Default to the current year instead of 2020 for year-less date inputs
+
+## 2.14.1 - 2024 Nov 6
+- Fix value bindings not always causing updates (@asdfghjkkl11)
+
+## 2.14.0 - 2024 Oct 23
+- Add Svelte 5 support
+
+## 2.13.0 - 2024 May 23
+- Add MMM format to allow short month names (@peterbell215)
+- Add date-fns 3 support
+
+## 2.12.0 - 2024 Apr 9
+- Disable autocomplete for date input (@gianarb)
+
+## 2.11.0 - 2024 Feb 26
+- Add component slot, for adding your own child elements
+- Don't clamp time of day when settig date/month/year
+- Fix time field sometimes showing a value outside `min`/`max`
+- Fix time field losing highlight after pressing left/right arrow keys
+- Use numeric keyboard in time field
+- Fix time field not losing highlight
+
+## 2.10.1 - 2023 Dec 6
+- Fix view not updating when value changes externally with `browseWithoutSelecting`
+
+## 2.10.0 - 2023 Nov 15
+- Add `required` prop (@ChromuSx)
+- Add `id` prop (@portfolioris)
+
+## 2.9.0 - 2023 Nov 3
 - Add `timePrecision` prop for showing a time picker (@nihanmubashshir)
 
 ## 2.8.0 - 2023 Sep 29
